@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    width: 380px;
+}
+
+.navigation {
+    color: #565959;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    color: #565959;
+    text-decoration: underline;
+}
+
+.description-container {
+   padding: 20px;
+   text-align: justify;
+   font-size: 18px;
+   
+}
+
+.author:hover {
+   text-decoration: none; 
+}
